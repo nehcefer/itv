@@ -1,0 +1,33 @@
+# Terraform state файли
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+.terraform/
+
+# Variables файли (МАЮТЬ ТОКЕНИ!!)
+terraform.tfvars
+*.tfvars
+!example.tfvars
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Лог файли
+*.log
+
+# Artifacts
+.terraform.tfstate.lock.info
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+.itv-config
